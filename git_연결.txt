@@ -1,0 +1,98 @@
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages
+$ git init
+Initialized empty Git repository in D:/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages/.git/
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git add .
+warning: in the working copy of 'css/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/scripts.js', LF will be replaced by CRLF the next time Git touches it
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git commit -m 'first commit'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-3P34419.(none)')
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git config --global user.email airobot2002@gmail.com
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git config --global user.name john2002-lee
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git commit -m 'first commit'
+[master (root-commit) 7cf39d6] first commit
+ 5 files changed, 11231 insertions(+)
+ create mode 100644 assets/img/favicon.ico
+ create mode 100644 assets/img/profile.jpg
+ create mode 100644 css/styles.css
+ create mode 100644 index.html
+ create mode 100644 js/scripts.js
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git remote add origin https://github.com/john2002-lee/profile.git
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/john2002-lee/profile.git'
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/john2002-lee/profile.git'
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ git config --global init.defaultBranch main
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (master)
+$ rm -rf .git
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages    
+$ git init
+Initialized empty Git repository in D:/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages/.git/
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (main)
+$ git add .
+warning: in the working copy of 'css/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/scripts.js', LF will be replaced by CRLF the next time Git touches it   
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (main)
+$ git commit -m 'first commit'
+[main (root-commit) 657610e] first commit
+ 5 files changed, 11231 insertions(+)
+ create mode 100644 assets/img/favicon.ico
+ create mode 100644 assets/img/profile.jpg
+ create mode 100644 css/styles.css
+ create mode 100644 index.html
+ create mode 100644 js/scripts.js
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (main)
+$ git remote add origin https://github.com/john2002-lee/profile.git
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (main)
+$ git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 247.47 KiB | 20.62 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/john2002-lee/profile.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+user@DESKTOP-3P34419 MINGW64 /d/06.profile/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages (main)
